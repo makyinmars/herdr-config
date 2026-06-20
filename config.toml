@@ -21,6 +21,7 @@ peach = "#fe8019"
 
 [ui]
 agent_panel_scope = "all"
+accent = "#d79921"
 
 [keys]
 # Ctrl+L is the Herdr leader/prefix.
