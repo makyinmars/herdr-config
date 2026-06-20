@@ -1,0 +1,7 @@
+# Herdr runtime state
+session.json
+*.log
+*.sock
+
+# macOS
+.DS_Store
