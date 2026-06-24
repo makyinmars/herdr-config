@@ -1,5 +1,6 @@
 # Herdr runtime state
 session.json
+plugins/
 *.log
 *.sock
 
