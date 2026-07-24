@@ -3,13 +3,16 @@ onboarding = false
 name = "gruvbox"
 
 [ui]
+# Herdr 0.7.5 removed `agent_panel_scope`; omit it so config validation stays clean.
 accent = "#d79921"
 
 [keys]
-# Ctrl+L is the Herdr leader/prefix.
+# Ctrl+L is the Herdr leader. Prefix bindings are sequential:
+# press and release Ctrl+L, then press the action key.
 prefix = "ctrl+l"
 
-# tmux-style pane and session controls.
+# tmux-style pane/session controls. Copy mode uses Vim motions:
+# h/j/k/l to move, / and ? to search, v to select, and y to copy.
 split_vertical = "prefix+%"
 split_horizontal = 'prefix+"'
 detach = "prefix+d"
@@ -19,7 +22,8 @@ copy_mode = "prefix+["
 workspace_picker = "prefix+s"
 settings = "prefix+shift+s"
 
-# Vim-style navigation.
+# Focus panes from terminal mode with Prefix+h/j/k/l. The unprefixed
+# navigation keys below apply only while Herdr's navigation UI is open.
 focus_pane_left = "prefix+h"
 focus_pane_down = "prefix+j"
 focus_pane_up = "prefix+k"
