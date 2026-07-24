@@ -2,26 +2,7 @@ onboarding = false
 [theme]
 name = "gruvbox"
 
-[theme.custom]
-accent = "#d79921"
-panel_bg = "#1d2021"
-surface0 = "#282828"
-surface1 = "#3c3836"
-surface_dim = "#1d2021"
-overlay0 = "#928374"
-overlay1 = "#a89984"
-text = "#ebdbb2"
-subtext0 = "#d5c4a1"
-mauve = "#d3869b"
-green = "#b8bb26"
-yellow = "#fabd2f"
-red = "#fb4934"
-blue = "#83a598"
-teal = "#8ec07c"
-peach = "#fe8019"
-
 [ui]
-agent_panel_scope = "all"
 accent = "#d79921"
 
 [keys]
@@ -32,6 +13,7 @@ prefix = "ctrl+l"
 split_vertical = "prefix+%"
 split_horizontal = 'prefix+"'
 detach = "prefix+d"
+copy_mode = "prefix+["
 
 # Use prefix+s for spaces/workspaces and keep settings on prefix+S.
 workspace_picker = "prefix+s"

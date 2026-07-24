@@ -1,7 +1,7 @@
 # Herdr Config
 
-Personal [Herdr](https://herdr.dev) configuration with tmux-style controls,
-Vim-style navigation, and a Gruvbox Dark Hard theme matching Ghostty and
+Personal [Herdr](https://herdr.dev) 0.7.5 configuration with tmux-style
+controls, Neovim-style navigation, and a Gruvbox theme matching Ghostty and
 Neovim.
 
 ## Configuration
@@ -112,6 +112,8 @@ to finish.
 | `h/j/k/l` | Move the cursor |
 | `w/b/e` | Move by words |
 | `{` / `}` | Move by paragraphs |
+| `/` / `?` | Search forward/backward |
+| `n` / `N` | Repeat search forward/backward |
 | `v` or `Space` | Start a selection |
 | `y` or `Enter` | Copy the selection |
 | `q` or `Esc` | Exit copy mode |
@@ -133,6 +135,5 @@ by Git.
 
 ## Requirements
 
-- Herdr 0.7.0 or newer
+- Herdr 0.7.5
 - A terminal that can distinguish the configured modified key chords
-
