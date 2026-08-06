@@ -6,6 +6,7 @@ name = "gruvbox"
 # Herdr 0.7.5 removed `agent_panel_scope`; omit it so config validation stays clean.
 accent = "#d79921"
 
+agent_panel_sort = "priority"
 [keys]
 # Ctrl+L is the Herdr leader. Prefix bindings are sequential:
 # press and release Ctrl+L, then press the action key.
@@ -40,6 +41,7 @@ next_agent = "prefix+."
 previous_agent = "prefix+,"
 
 [experimental]
+kitty_graphics = true
 pane_history = true
 switch_ascii_input_source_in_prefix = false
 
